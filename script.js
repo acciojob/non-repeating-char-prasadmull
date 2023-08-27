@@ -4,6 +4,7 @@ console.log(str);
 let obj = {};
 for (let char of str) {
 	if(obj[char]) obj[char]++;
+		
 	else{
 		obj[char] = 1;
 	}
@@ -13,5 +14,5 @@ let ans = "";
 for (let key in obj) {
 	if(obj[key] === 1) ans += key;
 }
-if(ans === "") ans = `' '`;
+if(ans === "") ans =null;
 alert(ans[0]);
