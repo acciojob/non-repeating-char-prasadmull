@@ -11,5 +11,5 @@ let ans="";
 for(let key in obj){
 	if(obj[key]===1]) ans+=key;
 }
-if(ans==="")ans+=`' '`;
+if(ans==="")ans=`' '`;
 alert(ans);
